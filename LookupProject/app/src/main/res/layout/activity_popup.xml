@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#454545"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_bottom_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/Result_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="Peter Svensson"
+        android:textColor="#ADADAD"
+        android:textStyle="bold"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/Result_number"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#ADADAD"
+        android:hint="031-1010155"/>
+
+    <TextView
+        android:id="@+id/Result_address"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#ADADAD"
+        android:hint="Långgatan 101, 41110 Stockholm"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+    WindowManager wm = (WindowManager) mContext.getSystemService(Context.WINDOW_SERVICE);
+    WindowManager.LayoutParams params = new WindowManager.LayoutParams(
+    ViewGroup.LayoutParams.MATCH_PARENT,
+    200,
+    WindowManager.LayoutParams.TYPE_SYSTEM_ALERT | WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY,
+    WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
+    PixelFormat.TRANSPARENT);
+
+    params.format = PixelFormat.TRANSLUCENT;
+    params.gravity = Gravity.TOP;
+
+    LinearLayout ly = new LinearLayout(mContext);
+    ly.setBackgroundColor(Color.LTGRAY);
+    ly.setOrientation(LinearLayout.VERTICAL);
+
+    // yrdy
+
+
+    TextView text = new TextView(mContext);
+    text.setText(personInfo);
+    text.setWidth(200);
+    text.setHeight(50);
+    ly.addView(text);
+
+    overlay = ly;
+    wm.addView(ly, params);
+
+-->

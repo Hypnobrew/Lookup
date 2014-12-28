@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Caller lookup</string>
+
+    <string name="NoHits">Not hits!</string>
+    <string name="App_started_header">"Caller lookup is now started."</string>
+    <string name="App_started_text">"Minimize for automatic lookups at incoming calls. "</string>
+    <string name="Settings">Settings</string>
+
+    <string name="api_eniro_key_e12b909b8576413e8f9ad6e6f23c23ce">XXX</string>
+    <string name="api_eniro_profile_ee8aa20dba1b40a7b77ebe299384bf33">XXX</string>
+    <string name="api_118100_key_8cfc6258473a469d8301edcbbc216e89">XXX</string>
+</resources>
