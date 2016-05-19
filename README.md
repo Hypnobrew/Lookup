@@ -3,11 +3,11 @@
 Can be found on [Google Play](https://play.google.com/store/apps/details?id=se.merryweather.callerlookup.app).
 
 This is a simple Android application for looking up incoming calls. 
-When activated it will search for the phone number andr present name and adress from the following sources:
+When activated it will search for the phone number and show name and adress from the following sources, directly on your screen:
 
 * `118100`
 * `Eniro`
 
-It is buld to be easy to plugin more sources.
-To get it to work you have to sign up for API access on 118100 and Eniro.
-Please add your keys to config file, och download the app from Google Play.
+It is built to be easy to extend the witn more sources, looking up phone numbers from.
+If you want to build something by yourself, you have to sign up for API access on 118100 and Eniro and add them to the configuration file.
+
